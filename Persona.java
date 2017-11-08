@@ -7,7 +7,7 @@
 public class Persona
 {
     private String nome;
-    private String congnome;
+    private String cognome;
 
     public Persona() {
         //cos'è il costruttore?
@@ -18,6 +18,15 @@ public class Persona
     }
     
     public String getNome() {
-        return nome;
+        return this.nome = nome;
     }
+    
+    public void setCognome(String cognome) {
+        this.cognome = cognome;
+    }
+   
+    public String getCognome() {
+        return this.cognome;
+    }
+    
 }
