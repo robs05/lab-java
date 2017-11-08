@@ -23,7 +23,6 @@ public class Main {
         /* Istanziare un nuovo oggetto (p2) della classe persona, modificare
          * nome e cognome 
          */
-        
         Persona p2 = new Persona();
         p2.setNome("Luigi");
         p2.setCognome("Verdi");
