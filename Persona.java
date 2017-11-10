@@ -18,7 +18,7 @@ public class Persona
     }
     
     public String getNome() {
-        return this.nome = nome;
+        return this.nome;
     }
     
     public void setCognome(String cognome) {
